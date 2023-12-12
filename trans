@@ -56,5 +56,3 @@ public class Translator {
         StringBuilder translationResponse = new StringBuilder();
         String line;
         while ((line = reader.readLine()) != null) {
-            translationResponse.append(line);
-        }
