@@ -7,10 +7,7 @@ import org.apache.http.impl.client.HttpClients;
     public static void main(String[] args) throws IOException {
         // Замените YOUR_API_KEY на свой ключ Google Cloud Translate API
         String apiKey = "YOUR_API_KEY";
-        
-        // Текст для перевода
-        String textToTranslate = "Привет, мир!";
-        
+
         // Язык исходного текста (русский)
         String sourceLanguage = "ru";
         
