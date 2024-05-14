@@ -2,13 +2,7 @@ import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
-import org.apache.http.impl.client.HttpClients;
-
-    public static void main(String[] args) throws IOException {
-        // Замените YOUR_API_KEY на свой ключ Google Cloud Translate API
-        String apiKey = "YOUR_API_KEY";
-
-        // Язык исходного текста (русский)
+import org.apache.http.impl.client.HttpC
         String sourceLanguage = "ru";
         
         // Язык, на который нужно перевести (украинский)
